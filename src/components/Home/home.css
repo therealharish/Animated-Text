@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@300&display=swap');
+
+
+.main {
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    font-size: large;
+    top: 35%;
+}
+
+h2 {
+    margin: 0.3em 0;    
+    font-weight: 400;
+}
+
+.circle {
+    z-index: -1;
+    position: absolute;
+    top: 30%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make the element a circle */
+    background-color: #ffccee; /* Set the background color to pastel red */
+  }

@@ -1,0 +1,17 @@
+.animated-text-container {
+    display: flex;
+    font-size: 10em;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 40%);
+
+    .animated-text-item {
+        transform: translateY(0);
+        transition: transform 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+        &:hover {
+            transform: translateY(-50px)
+        }
+    }
+}
